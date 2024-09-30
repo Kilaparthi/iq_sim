@@ -90,19 +90,12 @@
       <uri>model://sun</uri>
     </include>
 
-    <model name="drone1">
+    <model name="iris">
       <include>
-        <uri>model://drone1</uri>
+        <uri>model://drone_with_d435i</uri>
       </include>
       <pose> 0 0 0 0 0 0</pose>
     </model>
-
-    <model name="drone2">
-      <include>
-        <uri>model://drone2</uri>
-      </include>
-      <pose> 10 0 0 0 0 0</pose>
-    </model>
-
   </world>
 </sdf>
+
